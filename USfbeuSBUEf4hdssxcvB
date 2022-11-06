@@ -24,6 +24,7 @@ LocalScript6 = Instance.new("LocalScript")
 TextBox7 = Instance.new("TextBox")
 LocalScript8 = Instance.new("LocalScript")
 LocalScript9 = Instance.new("LocalScript")
+TextLabel10 = Instance.new("TextLabel")
 ScreenGui0.Name = "HSusdfes&E*f423dXcfgD"
 ScreenGui0.Parent = mas
 ScreenGui0.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -99,13 +100,12 @@ LocalScript6.Parent = TextButton5
 table.insert(cors,sandbox(LocalScript6,function()
 local key = script.Parent.Parent.putcode
 local getkey = script.Parent.Parent
-local mac = script.Parent.Parent.Parent.MCS
-local prl = script.Parent.Parent.Parent.PRL
 local redeem = script.Parent
 
 redeem.MouseButton1Click:Connect(function()
-	if key.Text == 'Y@aLuu6|{QV7fD8jn@fO' then
+	if key.Text == 'H92YCtLqWaHfBr0NkGzZ' then
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/m4mbaleila/mambahub/main/%3F%26sheesh'))()
+		script.Parent.Parent.Parent:Destroy()
 	end
 end)
 end))
@@ -166,6 +166,22 @@ UIS.InputChanged:Connect(function(input)
 	end
 end)
 end))
+TextLabel10.Name = "vrsion"
+TextLabel10.Parent = Frame1
+TextLabel10.Position = UDim2.new(0.809828818, 0, 0, 0)
+TextLabel10.Size = UDim2.new(0.190171421, 0, 0.137781456, 0)
+TextLabel10.BackgroundColor = BrickColor.new("Light grey")
+TextLabel10.BackgroundColor3 = Color3.new(0.756863, 0.760784, 0.764706)
+TextLabel10.BackgroundTransparency = 1
+TextLabel10.Font = Enum.Font.SourceSans
+TextLabel10.FontSize = Enum.FontSize.Size14
+TextLabel10.Text = "v.3.3.5b"
+TextLabel10.TextColor = BrickColor.new("Institutional white")
+TextLabel10.TextColor3 = Color3.new(1, 1, 1)
+TextLabel10.TextScaled = true
+TextLabel10.TextSize = 14
+TextLabel10.TextWrap = true
+TextLabel10.TextWrapped = true
 for i,v in pairs(mas:GetChildren()) do
 	v.Parent = game:GetService("Players").LocalPlayer.PlayerGui
 	pcall(function() v:MakeJoints() end)
