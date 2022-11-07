@@ -103,7 +103,7 @@ local getkey = script.Parent.Parent
 local redeem = script.Parent
 
 redeem.MouseButton1Click:Connect(function()
-	if key.Text == 'H92YCtLqWaHfBr0NkGzZ' then
+	if key.Text == 'ZgeSPPFDbf2WnPfz9QwD' then
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/m4mbaleila/mambahub/main/%3F%26sheesh'))()
 		script.Parent.Parent.Parent:Destroy()
 	end
@@ -175,7 +175,7 @@ TextLabel10.BackgroundColor3 = Color3.new(0.756863, 0.760784, 0.764706)
 TextLabel10.BackgroundTransparency = 1
 TextLabel10.Font = Enum.Font.SourceSans
 TextLabel10.FontSize = Enum.FontSize.Size14
-TextLabel10.Text = "v.3.5.5b"
+TextLabel10.Text = "v.3.6.5b"
 TextLabel10.TextColor = BrickColor.new("Institutional white")
 TextLabel10.TextColor3 = Color3.new(1, 1, 1)
 TextLabel10.TextScaled = true
